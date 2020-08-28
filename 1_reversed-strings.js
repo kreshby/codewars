@@ -29,3 +29,15 @@ function reversedStrings (b) {
 
 console.log(reversedStrings(""));
 
+
+/**
+ * другие способы решения задачи
+ * 
+ * https://vk.com/@devloger-tri-sposoba-perevernut-stroku-v-javascripte
+ * String.prototype.split(), Array.prototype.reverse() и Array.prototype.join().
+
+Метод split() принимает на вход строку и преобразует в массив, разбивая ее по разделителю.
+Метод reverse() переворачивает элементы массива. Первый элемент становится последним, последний — первым.
+Метод join() соединяет все элементы массива в строку.
+ */
+
