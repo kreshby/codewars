@@ -60,15 +60,15 @@ function cake(x, y){
     let total;
     let asiiCode = [];
     
-    newY = y.split("");
+    newY = y.split(""); //разбивает объект String на массив строк путём разделения строки указанной подстрокой
     console.log(newY);
 
-    for (let i = 0;i < newY.length; i++){
+    for (let i = 0;i < newY.length; i++){ // проходим по всему массиву
          console.log(newY[i]);
         
-        i % 2 == 1 ? asiiCode.push(newY[i].charCodeAt()-96)
+        i % 2 == 1 ? asiiCode.push(newY[i].charCodeAt()-96) // если значение идекса нечетное, тогда вычисляем его буквенную позицию
         :
-        asiiCode.push(newY[i].charCodeAt());               
+        asiiCode.push(newY[i].charCodeAt());    // иначе возращаем числовое значение из таблицы   ASCII        
 
     }
 
