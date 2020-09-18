@@ -20,8 +20,4 @@ function removeChar(str){
 
    console.log(removeChar("Hello"));
 
-   /**
-    * function removeChar(str) {
-  return str.slice(1, -1);
-}
-    */
+  
