@@ -1,23 +1,16 @@
-
 /**
- * Your goal is to create a function that removes the first and last characters of a string. 
+ * Your goal is to create a function that removes the first and last characters of a string.
  * You're given one parameter, the original string.
  *  You don't have to worry with strings with less than two characters.
  */
 
-let newStr ;
+let newStr;
 
-function removeChar(str){
+function removeChar(str) {
+  let lastCharacter = str.length - 1;
+  newStr = str.slice(1, lastCharacter);
 
-    let lastCharacter = (str.length -1);
-    newStr = str.slice(1,lastCharacter);
+  return newStr;
+}
 
-    return newStr  
-
-   
-   };
-
-
-   console.log(removeChar("Hello"));
-
-  
+console.log(removeChar("Hello"));
