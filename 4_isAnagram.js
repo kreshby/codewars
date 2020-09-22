@@ -1,5 +1,5 @@
 /**
- * An anagram is the result of rearranging the letters of a word to produce a new word 
+ * An anagram is the result of rearranging the letters of a word to produce a new word
  * (see wikipedia).
 
 Note: anagrams are case insensitive
@@ -10,7 +10,7 @@ Complete the function to return true if the two arguments given are anagrams of 
  */
 
 /**
- * Метод split() разбивает объект String на массив строк 
+ * Метод split() разбивает объект String на массив строк
  * путём разделения строки указанной подстрокой.
  *
  * Синтаксис
@@ -21,8 +21,8 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/St
 
 /**
  * sort()
-Позволяет отсортировать массив путём преобразования его элементов в строки 
-и сравнения этих строк в порядке следования кодовых символов 
+Позволяет отсортировать массив путём преобразования его элементов в строки
+и сравнения этих строк в порядке следования кодовых символов
 Unicode (сортирует массив по алфавиту).
  *
 */
