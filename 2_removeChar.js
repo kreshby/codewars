@@ -7,10 +7,10 @@
 let newStr;
 
 function removeChar(str) {
-  let lastCharacter = str.length - 1;
+  const lastCharacter = str.length - 1;
   newStr = str.slice(1, lastCharacter);
 
   return newStr;
 }
 
-console.log(removeChar("Hello"));
+console.log(removeChar('Hello'));
