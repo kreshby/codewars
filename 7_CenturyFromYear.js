@@ -21,4 +21,3 @@ function century(inYear) {
 
   return century;
 }
-
