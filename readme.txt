@@ -1,35 +1,43 @@
 
-# Codewars Stage 1:
+### update 09/03/2021
+Codewars Stage 1:
+String
+7 kyu https://www.codewars.com/kata/disemvowel-trolls/
+7 kyu https://www.codewars.com/kata/mumbling/
+7 kyu https://www.codewars.com/kata/highest-and-lowest/
+7 kyu https://www.codewars.com/kata/isograms/
+7 kyu https://www.codewars.com/kata/char-code-calculation
+7 kyu https://www.codewars.com/kata/cat-and-mouse-2d-version/
+6 kyu https://www.codewars.com/kata/duplicate-encoder
+Number
+7 kyu https://www.codewars.com/kata/squares-sequence
+7 kyu https://www.codewars.com/kata/concatenated-sum
+7 kyu https://www.codewars.com/kata/filter-the-number
+6 kyu https://www.codewars.com/kata/n-th-fibonacci
+Array
+7 kyu https://www.codewars.com/kata/playing-with-sets-intersection
+7 kyu https://www.codewars.com/kata/divide-and-conquer
+6 kyu https://www.codewars.com/kata/find-the-odd-int/
+6 kyu https://www.codewars.com/kata/find-the-parity-outlier
+6 kyu https://www.codewars.com/kata/zipwith
+Date
+7 kyu https://www.codewars.com/kata/it-is-written-in-the-stars
+6 kyu https://www.codewars.com/kata/friday-the-13ths
+Object
+7 kyu https://www.codewars.com/kata/counting-array-elements
+7 kyu https://www.codewars.com/kata/who-is-the-killer-1
+Regular expression
+8 kyu https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
+6 kyu https://www.codewars.com/kata/validate-my-password
+Scoring criteria
+2 point for 8 kyu tasks (1 tasks in total)
+2 point for 7 kyu tasks (14 tasks in total)
+5 points for 6 kyu tasks (7 tasks in total)
+Total: 2 * 1 + 2 * 14 + 5 * 7 = 65
 
-### String
-  1. 8 kyu https://www.codewars.com/kata/reversed-strings  
-  2. 8 kyu https://www.codewars.com/kata/remove-first-and-last-character
-  3. 8 kyu https://www.codewars.com/kata/palindrome-strings
-  4. 7 kyu https://www.codewars.com/kata/anagram-detection
-  5. 7 kyu https://www.codewars.com/kata/birthday-i-cake
+Total sum - 65 points
 
-### Number
-  6. 8 kyu https://www.codewars.com/kata/even-or-odd
-  7. 8 kyu https://www.codewars.com/kata/century-from-year
-  8. 7 kyu https://www.codewars.com/kata/greatest-common-divisor
-  9. 7 kyu https://www.codewars.com/kata/factorial
-  10. 7 kyu https://www.codewars.com/kata/find-the-duplicated-number-in-a-consecutive-unsorted-list
-  11. 6 kyu https://www.codewars.com/kata/is-a-number-prime/
-
-### Array
-  12. 8 kyu https://www.codewars.com/kata/remove-duplicates-from-list
-  13. 8 kyu https://www.codewars.com/kata/sum-of-positive
-  14. 7 kyu https://www.codewars.com/kata/fizz-buzz
-  15. 7 kyu https://www.codewars.com/kata/currying-functions-multiply-all-elements-in-an-array
-  16. 7 kyu https://www.codewars.com/kata/shortest-word
-  17. 7 kyu https://www.codewars.com/kata/square-every-digit
-  18. 7 kyu https://www.codewars.com/kata/easy-mathematical-callback
-
-### Object
-  19. 6 kyu https://www.codewars.com/kata/count-characters-in-your-string
-
-### Regular expression 
-  20. 8 kyu https://www.codewars.com/kata/simple-validation-of-a-username-with-regex
-  21. 7 kyu https://www.codewars.com/kata/regexp-basics-is-it-a-letter
-  22. 7 kyu https://www.codewars.com/kata/regexp-basics-is-it-a-vowel/
-
+How to submit
+Codewars is an autochecked task.
+To submit the results, follow the link https://app.rs.school/, select Auto-Test, select Codewars in the drop-down list and enter your codewars username in form.
+You can submit the result again before the deadline. Each next submit overwrites the previous one.
