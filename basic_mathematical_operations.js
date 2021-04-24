@@ -4,5 +4,18 @@ The function should return result of numbers after applying the chosen operation
   */
 
 function basicOp(operation, value1, value2) {
-  // Code
+  let result;
+  if (operation.includes('+')) {
+    result = value1 + value2;
+  }
+  if (operation.includes('-')) {
+    result = value1 - value2;
+  }
+  if (operation.includes('*')) {
+    result = value1 * value2;
+  }
+  if (operation.includes('/')) {
+    result = value1 / value2;
+  }
+  return result;
 }
