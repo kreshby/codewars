@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 /**
  * Can you realize a function that returns word count from a given string?
 
@@ -12,5 +13,13 @@ Be sure that words with chars like -, ', ` are counted right.
  */
 
 function countWords(str) {
-  // ...
+  let strLenghth;
+
+  str = str.trim().replace(/\s+/gm, ' ');
+
+  str.length === 0
+    ? strLenghth = 0
+    : strLenghth = str.split(' ').length;
+
+  return strLenghth;
 }
