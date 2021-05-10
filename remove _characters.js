@@ -8,6 +8,18 @@
  */
 
 function array(arr) {
-  
+  const newArray = [];
+  //   newArray = arr.replace(/^.|.$|\,/gm, ' ').trim();
+  //   if (newArray.length === 0) {
+  //     return null;
+  //   }
 
+  //   return newArray;
+  arr.pop();
+  arr.splice(0, 1);
+  if (newArray.length === 0) {
+    return null;
+  }
+  return arr;
 }
+console.log(array(['edf', 4, 'f', 'c61', 2, 'e36', 'e', 'a2e']));
