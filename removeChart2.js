@@ -10,6 +10,7 @@ return a null value.
 */
 
 function array(arr) {
-  // Good luck
-
+  let newstr = arr.replace(/\s/g, '');
+  newstr = newstr.replace(/\,/g, '');
+  return newstr.length > 2 ? newstr.slice(1, -1) : null;
 }
